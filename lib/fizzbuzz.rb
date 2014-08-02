@@ -5,15 +5,12 @@ def fizzbuzz(num)
   (1..num).each do |num|
     if num % 3 == 0 && num % 5 == 0
       result = "fizzbuzz"
-      result
     elsif num % 3 == 0
       result  = "fizz"
     elsif num % 5 == 0
       result = "buzz"
-      result
     else
       result = num
-      result
     end
     array << result
   end
